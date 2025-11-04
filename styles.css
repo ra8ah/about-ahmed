@@ -696,11 +696,6 @@ h6 {
   position: relative;
   z-index: 10;
 }
-.email-btn-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-}
 .footer p {
   color: var(--gray-400);
   margin-bottom: 0.5rem;
