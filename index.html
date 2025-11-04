@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Rabah Abdulla - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <div class="logo-icon">✨</div>
+        <span class="logo-text">ARA</span>
+      </div>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+      <div class="nav-menu" id="navMenu">
+        <button class="nav-link" onclick="scrollToSection('home')">Home</button>
+        <button class="nav-link" onclick="scrollToSection('about')">About</button>
+        <button class="nav-link" onclick="scrollToSection('skills')">Skills</button>
+        <button class="nav-link" onclick="scrollToSection('experience')">Experience</button>
+        <button class="nav-link" onclick="scrollToSection('contact')">Contact</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="section hero">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    
+    <div class="container">
+      <div class="badge">
+        <span class="pulse-dot"></span>
+        AVAILABLE FOR OPPORTUNITIES
+      </div>
+      
+      <h1 class="title">Ahmed Rabah<br>Abdulla</h1>
+      <p class="subtitle">Computer Engineering Graduate</p>
+      
+      <p class="description">
+        Problem-solving enthusiast with a solid foundation in technical and analytical concepts. Passionate about technology applications and eager to apply my skills in a real-world technical environment.
+      </p>
+      
+      <div class="cta-buttons">
+        <button class="btn btn-primary" onclick="scrollToSection('contact')">
+          Get In Touch →
+        </button>
+        <button class="btn btn-secondary" onclick="scrollToSection('about')">
+          Learn More
+        </button>
+      </div>
+      
+      <div class="social-links">
+        <a href="https://linkedin.com/in/ahmedrabah" target="_blank" class="social-icon">🔗</a>
+        <a href="mailto:ahmedrabahabdulla@gmail.com" class="social-icon">✉️</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Who I Am</h3>
+          <p>I'm Ahmed Rabah Abdulla, a Computer Engineering graduate from Government Polytechnic College (2022-2025) based in Kerala, India. I bring a solid foundation in technical and analytical concepts with a practical problem-solving mindset.</p>
+          <p>During my tenure as an Office Associate at RIBCO Constructions, I honed communication and interpersonal skills while managing front desk operations and documentation. I'm motivated by a desire to grow and actively seek opportunities to apply my skills in a real-world technical environment.</p>
+        </div>
+        
+        <div class="info-cards">
+          <div class="info-card">
+            <h4>Education</h4>
+            <p class="info-title">Diploma in Computer Engineering</p>
+            <p class="info-subtitle">Government Polytechnic College (2022-2025)</p>
+          </div>
+          
+          <div class="info-card">
+            <h4>Location</h4>
+            <p class="info-title">Kerala, India</p>
+            <p class="info-subtitle">Open to remote & on-site opportunities</p>
+          </div>
+          
+          <div class="info-card">
+            <h4>Contact</h4>
+            <p class="info-title">ahmedrabahabdulla@gmail.com</p>
+            <p class="info-subtitle">Let's work together</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Skills & Expertise</h2>
+      
+      <div class="skills-grid">
+        <div class="skills-column">
+          <h3 class="skills-title">Core Competencies</h3>
+          <div class="skill-items">
+            <div class="skill-item">Customer Service</div>
+            <div class="skill-item">Office Administration</div>
+            <div class="skill-item">Project Engineering</div>
+            <div class="skill-item">Problem Solving</div>
+            <div class="skill-item">Technical Analysis</div>
+          </div>
+        </div>
+        
+        <div class="skills-column">
+          <h3 class="skills-title">Certifications</h3>
+          <div class="skill-items">
+            <div class="skill-item">Business Analysis & Process Management</div>
+            <div class="skill-item">Getting Started with Microsoft Excel</div>
+            <div class="skill-item">Concepts in SQL</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tech-stack">
+        <h3 class="skills-title">Technical Stack</h3>
+        <div class="tech-items">
+          <span class="tech-tag">Excel</span>
+          <span class="tech-tag">SQL</span>
+          <span class="tech-tag">Project Management</span>
+          <span class="tech-tag">Documentation</span>
+          <span class="tech-tag">Office Suite</span>
+          <span class="tech-tag">Data Analysis</span>
+          <span class="tech-tag">Communication</span>
+          <span class="tech-tag">Process Improvement</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-line"></div>
+          
+          <div class="timeline-content">
+            <div class="experience-header">
+              <div>
+                <h3 class="job-title">Office Associate</h3>
+                <p class="company">RIBCO CONSTRUCTIONS PRIVATE LIMITED</p>
+              </div>
+              <span class="date">April 2021 - May 2022</span>
+            </div>
+            <p class="location">Goa, India</p>
+            
+            <ul class="experience-list">
+              <li>Managed front desk operations, ensuring smooth communication and interaction with clients, visitors, and team members</li>
+              <li>Handled correspondence, scheduling, and documentation, supporting day-to-day office administration</li>
+              <li>Maintained office records and checklists to improve workflow efficiency and organization</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="contact-subtitle">I'm always interested in hearing about new opportunities and collaborations. Feel free to reach out!</p>
+      
+      <div class="contact-cards">
+        <a href="mailto:ahmedrabahabdulla@gmail.com" class="contact-card">
+          <span class="contact-icon">✉️</span>
+          <h3>Email</h3>
+          <p>ahmedrabahabdulla@gmail.com</p>
+        </a>
+        
+        <a href="https://linkedin.com/in/ahmedrabah" target="_blank" class="contact-card">
+          <span class="contact-icon">🔗</span>
+          <h3>LinkedIn</h3>
+          <p>@ahmedrabah</p>
+        </a>
+        
+        <div class="contact-card">
+          <span class="contact-icon">📍</span>
+          <h3>Location</h3>
+          <p>Kerala, India</p>
+        </div>
+      </div>
+      
+      <a href="mailto:ahmedrabahabdulla@gmail.com" class="btn btn-primary" style="margin-top: 2rem;">
+        Send Me an Email →
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Crafted with passion for excellence</p>
+    <p class="copyright">© 2025 Ahmed Rabah Abdulla. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
